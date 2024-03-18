@@ -1,0 +1,111 @@
+.neumorphic-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.neumorphic-card {
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+  margin: 26px;
+  padding: 22px;
+}
+
+.neumorphic-table {
+  border-collapse: collapse;
+  margin-top: 50px;
+  /* width: 932px; */
+}
+.neumorphic-table thead {
+  padding-bottom: 10px;
+}
+.neumorphic-table th {
+  color: #c4c9cc;
+  font-size: 14px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c4c9cc;
+}
+.neumorphic-table tr {
+  height: 60px;
+  /* border-bottom: 1px solid #ebeff2; */
+  border-bottom: 1px solid #c4c9cc;
+  text-align: center;
+}
+.neumorphic-table td {
+  font-size: 16px;
+  color: #535555;
+  font-weight: 700;
+  width: 932px;
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.heading {
+  font-weight: 300;
+  color: rgba(50, 48, 48, 0.751);
+}
+
+.search-container {
+  position: relative;
+}
+/* .search-container :hover {
+  border-color: red;
+} */
+.search-input:hover {
+  border: 1px solid red; /* You can customize this border color as needed */
+}
+
+.items-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.cardIcon {
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+}
+.tableIcon {
+  width: 20px;
+  height: 20px;
+  border: none;
+  padding: none;
+}
+/* .tableIcon : hover {
+  width: 20px;
+  height: 20px;
+  border: none;
+  padding: none;
+} */
+.custom-btn {
+  border: none;
+  padding: none;
+}
+.pullDownIcon {
+  width: 18px;
+}
+
+.search-input {
+  font-size: 16px;
+  padding: 7px 10px;
+  height: 30px;
+  background-image: url("../Search.svg");
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding-left: 50px;
+  /* border: 1px solid #c4c9cc; */
+  border: none;
+  width: 200px;
+}
+
+.search-input::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  border: 1px solid #909191;
+  font-size: 16px;
+}
